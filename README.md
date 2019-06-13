@@ -7,8 +7,8 @@
 
 ## Usage
 
-1. Tweak docker-compose.yml (HOSTS_ALLOW)
+1. Tweak docker-compose.yml (`HOSTS_ALLOW`)
 
 2. Run rsyncd via [Docker Compose](https://docs.docker.com/compose/install/):
 
-    docker-compose up
+       docker-compose up
