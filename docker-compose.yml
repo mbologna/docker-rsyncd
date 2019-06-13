@@ -1,0 +1,14 @@
+version: "2.0"
+
+services:
+  app:
+    image: mbologna/docker-rsyncd
+    container_name: rsyncd
+    restart: always
+    ports:
+      - "127.0.0.1:873:873"
+    volumes:
+      - ./storage:/srv/rsyncd
+    environment:
+      HOSTS_ALLOW: 10.0.0.1/8
+  
