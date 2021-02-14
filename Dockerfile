@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3
 LABEL maintainer="Michele Bologna <mb@michelebologna.net>"
 LABEL name="rsyncd Docker container by Michele Bologna"
 LABEL version="mb-3.9-20190613"
